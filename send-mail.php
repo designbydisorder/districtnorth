@@ -1,6 +1,6 @@
 <?php
 
-$to = 'designbydisorder@icloud.com'; // Change your email address
+$to = 'districtnorthdesign@gmail.com'; // Change your email address
 
 
 $name = $_POST['name'];
@@ -40,7 +40,7 @@ $header = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
 
   //
  // mail( $to , $_POST['subject'], $_POST['message'], $headers );
- mail($to, designbydisorder@icloud.com $subject, $body, $header);
+ mail($to, districtnorthdesign@gmail.com $subject, $body, $header);
   //      ^
   //  Replace with your email 
 }
