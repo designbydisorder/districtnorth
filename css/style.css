@@ -374,6 +374,9 @@ h3 {
 
 h4 {
     font-size: 22px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 h5 {
@@ -891,10 +894,14 @@ form label.error {
 
 /*padding*/
 .section-padding {
-    padding-top: 120px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 
+.section-padding2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .section-padding-t {
     padding-top: 120px;
 }
@@ -2730,7 +2737,22 @@ header.header-prepare .nav-bar-icon > span::after {
     text-align: center;
 }
 
-
+.intro-content-inner2 {
+    display: table-cell;
+    height: 50%;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.intro-content-innerabout {
+    display: table-cell;
+    height: 20%;
+    vertical-align: middle;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
 .intro-img-circle {
     margin-left: auto;
     margin-right: auto;
@@ -3545,7 +3567,7 @@ form .error {
 /*==========================================================================================================*/
 
 .footer {
-    padding-top: 120px;
+    padding-top: 50px;
     padding-bottom: 120px;
 }
 

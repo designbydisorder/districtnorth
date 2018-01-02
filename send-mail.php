@@ -40,7 +40,7 @@ $header = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
 
   //
  // mail( $to , $_POST['subject'], $_POST['message'], $headers );
- mail($to, $subject, $body, $header);
+ mail($to, designbydisorder@icloud.com $subject, $body, $header);
   //      ^
   //  Replace with your email 
 }
