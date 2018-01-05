@@ -40,8 +40,8 @@ $header = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
 
   //
  // mail( $to , $_POST['subject'], $_POST['message'], $headers );
- mail($to, districtnorthdesign@gmail.com $subject, $body, $header);
+ mail($to, $subject, $body, $header);
   //      ^
-  //  Replace with your email 
+  //  districtnorthdesign@gmail.com
 }
 ?>
