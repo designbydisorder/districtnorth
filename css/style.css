@@ -11,10 +11,10 @@
 
 /*
 * BASIC
-  - General Style    
-  - Typography Style    
+  - General Style
+  - Typography Style
   - Button Style
-  - Form Style    
+  - Form Style
   - Spacer Style
 
 * HEADER
@@ -42,7 +42,7 @@
   - Contact Form, Map, contact-info
   - Preloader
   - Countdown Clock
-  
+
 * FOOTER
   - Social
   - Copyright
@@ -98,7 +98,7 @@ body {
 }
 
 .color-bg {
-    background-color: #A9ABA0;
+    background-color: #ffffff;
 }
 
 .yellow-bg {
@@ -117,7 +117,7 @@ body {
 .dark-bg .alt-icon-top, .dark-bg .alt-icon-left, .dark-bg .alt-icon-right,
 .dark-bg .counter-icon,
 .dark-bg .skill-bar-percent {
-    color: #A9ABA0;
+    color: #ffffff;
 }
 
 .bg-image {
@@ -389,7 +389,7 @@ h6 {
     }
 
     h1.color, h2.color, h3.color, h4.color, h5.color, h6.color, h6 .color {
-        color: #A9ABA0;
+        color: #ffffff;
     }
 
 /* Alternate Hadding */
@@ -487,7 +487,7 @@ p {
     }
 
     p.color p.small.color, p.large.color, p.lead.color, p .color, .color {
-        color: #A9ABA0;
+        color: #ffffff;
     }
 
 .yellow {
@@ -578,7 +578,7 @@ a {
 }
 
     .Link:hover {
-        color: #A9ABA0;
+        color: #ffffff;
     }
 
 .link-d {
@@ -586,7 +586,7 @@ a {
 }
 
     .link-d:hover {
-        color: #A9ABA0;
+        color: #ffffff;
     }
 
 
@@ -619,7 +619,7 @@ a {
 
 .btn-move {
     top: 200px;
-    
+
 }}
 
 i.right {
@@ -654,13 +654,13 @@ i.right {
 }
 
     .btn-black:hover {
-        background-color: #A9ABA0;
+        background-color: #ffffff;
         border-color: transparent;
         color: #fff;
     }
 
 .btn-color {
-    background-color: #A9ABA0;
+    background-color: #ffffff;
     border-color: transparent;
     color: #fff;
 }
@@ -686,16 +686,29 @@ i.right {
 
 .btn-white-outline {
     background-color: transparent;
-    border-color: #A9ABA0;
-    color: #A9ABA0;
+    border-color: #000000;
+    color: #000000;
 
 }
 
     .btn-white-outline:hover {
-        background-color: #A9ABA0;
-        border-color: #A9ABA0;
-        color: #08262C;
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
     }
+
+    .btn-white-outline2 {
+        background-color: transparent;
+        border-color: #ffffff;
+        color: #ffffff;
+
+    }
+
+        .btn-white-outline2:hover {
+            background-color: #000000;
+            border-color: #000000;
+            color: #ffffff;
+        }
 
 .btn-black-outline {
     background-color: transparent;
@@ -711,13 +724,13 @@ i.right {
 
 .btn-color-outline {
     background-color: transparent;
-    border-color: #A9ABA0;
-    color: #A9ABA0;
+    border-color: #ffffff;
+    color: #ffffff;
 }
 
     .btn-color-outline:hover {
-        background-color: #A9ABA0;
-        border-color: #A9ABA0;
+        background-color: #ffffff;
+        border-color: #ffffff;
         color: #fff;
     }
 
@@ -1942,7 +1955,7 @@ form label.error {
     text-align: center;
     top: 0px;
     z-index: 1000;
-    color: #A9ABA0;
+    color: #ffffff;
     width: 100%;
     height: 85px;
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -2200,7 +2213,7 @@ form label.error {
 
     .nav-bar-icon.active a, .nav-bar-icon a.active,
     .nav-bar-icon:hover a, .nav-bar-icon a:hover {
-        color: #A9ABA0;
+        color: #ffffff;
     }
 
 .nav-bar-icon > span {
@@ -2242,7 +2255,7 @@ header.header-dark .nav-bar-icon > span::after,
 header.header-dark.header-prepare .nav-bar-icon > span,
 header.header-dark.header-prepare .nav-bar-icon > span:before,
 header.header-dark.header-prepare .nav-bar-icon > span::after {
-    background-color: #A9ABA0;
+    background-color: #ffffff;
 }
 
 header.header-light .nav-bar-icon > span,
@@ -2470,7 +2483,7 @@ header.header-prepare .nav-bar-icon > span::after {
 }
 
     .overlay-menu-nav li a {
-        color: #A9ABA0;
+        color: #ffffff;
         text-transform: uppercase;
         font-size: 20px;
         font-weight: 400;
@@ -2481,7 +2494,7 @@ header.header-prepare .nav-bar-icon > span::after {
     }
 
     .overlay-menu-nav li:hover a {
-        color: #A9ABA0;
+        color: #ffffff;
     }
 
 .overlay-menu-close {
@@ -2539,7 +2552,7 @@ header.header-prepare .nav-bar-icon > span::after {
     .overlay-menu-close:hover > span,
     .overlay-menu-close:hover > span:before,
     .overlay-menu-close:hover > span:after {
-        background-color: #A9ABA0;
+        background-color: #ffffff;
     }
 
 @media all and (max-width: 960px) {
@@ -2625,7 +2638,7 @@ header.header-prepare .nav-bar-icon > span::after {
     }
 
         .side-menu .menu-close:hover {
-            color: #A9ABA0;
+            color: #ffffff;
         }
 
     .side-menu a {
@@ -2884,7 +2897,7 @@ header.header-prepare .nav-bar-icon > span::after {
 .skillbar-bar-child {
     height: 4px;
     width: 0px;
-    background: #A9ABA0;
+    background: #ffffff;
     -webkit-transition-property: width, background-color;
     -moz-transition-property: width, background-color;
     -ms-transition-property: width, background-color;
@@ -3051,7 +3064,7 @@ ul.icon-tab-nav, .icon-tab-nav ul {
 
         .icon-tab-nav a.active, .icon-tab-nav a.active .icon-tab-nav-title,
         .icon-tab-nav a:hover, .icon-tab-nav a:hover .icon-tab-nav-title {
-            color: #A9ABA0;
+            color: #ffffff;
         }
 
 
@@ -3358,11 +3371,11 @@ ul.icon-tab-nav, .icon-tab-nav ul {
     }
 
     .social-box:hover .social-icon {
-        background: #A9ABA0;
+        background: #ffffff;
     }
 
     .social-box:hover .social-link a {
-        color: #A9ABA0;
+        color: #ffffff;
     }
 
 
@@ -3735,11 +3748,11 @@ form .error {
 }
 
 .alt-icon-color {
-    color: #A9ABA0 !important;
+    color: #ffffff !important;
 }
 
 .icon-color {
-    background-color: #A9ABA0;
+    background-color: #ffffff;
     color: #fff;
 }
 
@@ -3754,7 +3767,7 @@ form .error {
 }
 
 .content-box:hover .icon-black {
-    background-color: #A9ABA0;
+    background-color: #ffffff;
     color: #fff;
 }
 
@@ -3973,7 +3986,7 @@ form .error {
         }
 
             .portfolio-filter li a.active {
-                color: #A9ABA0;
+                color: #ffffff;
             }
 
 /* Portfolio Single Page */
@@ -4097,7 +4110,7 @@ form .error {
 }
 
     .post-author-hadding a {
-        color: #A9ABA0;
+        color: #ffffff;
     }
 
 .post-author-body {
